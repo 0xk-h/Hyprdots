@@ -62,7 +62,7 @@
     },
     {
       "type": "disk",
-      "key": "└ └\udb84\udc79",
+      "key": "│ └\udb84\udc79",
       "keyColor": "bright_green",
       "format": "{size-used} / {size-total} ({size-percentage}) - {filesystem}",
       "percent": {
