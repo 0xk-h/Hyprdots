@@ -25,5 +25,6 @@ if status is-interactive # Commands to run in interactive sessions can go here
     alias ls 'eza --icons'
     alias clear "printf '\033[2J\033[3J\033[1;1H'"
     alias q 'qs -c ii'
+    alias studio="set -x QT_QPA_PLATFORM xcb; set -x AWT_TOOLKIT WLToolkit; /opt/android-studio/bin/studio"
 
 end
