@@ -1,6 +1,6 @@
 # Hyprdots
 
-Raw Arch Linux + Hyprland dotfiles for my daily setup.
+Raw Arch Linux + Hyprland dotfiles for my daily setup built on top of end-4 dotfiles.
 
 This repo is a personal collection of configs I actually use.  
 It’s not clean, not stable, and not meant to be copied blindly.
