@@ -10,3 +10,7 @@ local screenshot = 'grim -g "$(slurp -d)" - | tee ~/Pictures/Screenshots/$(date 
 hl.bind("SUPER + B", hl.dsp.exec_cmd(browser), { description = "App: Browser" })
 hl.bind("SUPER + A", hl.dsp.exec_cmd(androidStudio), { description = "App: Android Studio" })
 hl.bind("SUPER + Print", hl.dsp.exec_cmd(screenshot), { description = "Utilities: ScreenShot" })
+
+--#Custom Lockscreen
+hl.unbind("SUPER + L")
+hl.bind("SUPER + L", hl.dsp.exec_cmd("/home/hunter/.local/share/quickshell-lockscreen/lock.sh"), { description = "Session: Lock" })
