@@ -1,3 +1,8 @@
+# refresh kitty at startup
+if test $TERM = "xterm-kitty"
+    sleep 0.1 && kill -SIGUSR1 $KITTY_PID &
+end
+
 # Commands to run in interactive sessions can go here
 if status is-interactive
     # Diable default greeting
